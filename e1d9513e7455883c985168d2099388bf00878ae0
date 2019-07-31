@@ -1,0 +1,1 @@
+{"jobID":"90993945-dece-2c9f-f11d-8498f4e7da1b","spec":{"type":"policy","cause":{"Message":"test","User":"Jon Owings \u003cowings@purestorage.com\u003e"},"spec":{"default:deployment/minio-deployment":{"add":null,"remove":{"automated":"true","automated_msg":"test","automated_user":"Jon Owings \u003cowings@purestorage.com\u003e"}}}},"result":null}
