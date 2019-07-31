@@ -1,3 +1,4 @@
+---
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
@@ -7,7 +8,7 @@ metadata:
 spec:
   storageClassName: pure-block
   accessModes:
-    - ReadWriteOnce
+  - ReadWriteOnce
   resources:
     requests:
       storage: 101Gi
@@ -63,8 +64,8 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-    - port: 9000
-      targetPort: 9000
-      protocol: TCP
+  - port: 9000
+    targetPort: 9000
+    protocol: TCP
   selector:
     app: minio
